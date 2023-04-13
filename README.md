@@ -1,50 +1,13 @@
 # React Joke Generator
 
-[View Sample](https://ljkbro.csb.app/)
+[View App](https://nss-reactjokegenerator.netlify.app/)
 
-## Topics
-- [Starting the Project](#starting-the-project)
-- [Deploying on Netlify](#deploying-on-netlify)
-___
 
-## Project Deets
-You will be creating a Joke Generator!
+## The App
 
-This project is meant to get you thinking in React and to help you with some concepts.
 
-### Acceptance Criteria:
-1. When a user first loads the app, a button appears on the DOM that reads "Get a Joke"
-1. When the user presses the "Get a Joke" button, an API call is made to the joke API and the joke setup appears on the DOM.
-1. When a user presses the "Get a Joke" button, the button text changes to "Get Punchline"
-1. When a user presses the "Get Punchline" button, both the joke setup and delivery are on the DOM along with a button that reads "Get Another Joke"
-1. When the user presses the "Get Another Joke" button, the app starts over from step 3.
+![image](https://user-images.githubusercontent.com/121408336/231621021-36a08127-375d-4da8-8623-c651c8b80f5e.png)
 
-## Starting the Project
-1. Clone this repo to your local machine
-1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
-1. From your command line, be in the root directory and run `npm install` OR `npm i` for short.
-1. Next, run `npm run prepare`. This command sets up husky to track eslint errors on commit that will make your deploy fail on Netlify.
-1. To start your application, run `npm run dev`. THIS IS THE COMMAND YOU WILL USE TO RUN YOUR DEVELOPMENT SERVER FROM NOW ON.
-1. Open [http://localhost:3000](http://localhost:3000) with your browser.
+![image](https://user-images.githubusercontent.com/121408336/231621187-5b4e9329-2a6c-4cc2-b3c9-e6c30fc62dd3.png)
 
-### If you see this, you are set to go!
-<img width="510" alt="Screen Shot 2022-07-09 at 11 29 54 AM" src="https://user-images.githubusercontent.com/31781724/178114566-b2a67164-a604-4e10-9430-4c3054e2d8ab.png">
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-### Deploying on Netlify
-Netlify will automatically detect your project and prepopulate the settings, but should something go wrong and it does not, here are the commands:
-
-- Build Command: `npm run build`
-- Publish directory: `.next`
-
-#### Additional Steps to Take on Netlify
-- Add Environmental Variables
-    - Any Enviromental variables you are using in your `.env` file should be added to Netlify. 
-        - Go to Site settings > Build & deploy > Environment > Environment variables and the keys and values there.
-        
-## Learn More about Next.js
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://user-images.githubusercontent.com/121408336/231621221-361716bb-82cd-4ec9-a05b-ea2630c11941.png)
